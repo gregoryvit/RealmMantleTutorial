@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SessionManager.h"
+
+@class ArticleListRequestModel;
+@class ArticleListResponseModel;
 
 @interface APIManager : SessionManager
+
+- (NSURLSessionDataTask *) getArticlesWithRequestModel:(ArticleListRequestModel *)requestModel success:(void (^)(ArticleListResponseModel *responseModel))success failure:(void (^)(NSError *error))failure;
+
 
 @end
