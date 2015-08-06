@@ -15,4 +15,6 @@
 @property (copy, nonatomic) NSDate *articlesFromDate;
 @property (copy, nonatomic) NSDate *articlesToDate;
 
++ (NSDateFormatter *)dateFormatter;
+
 @end
