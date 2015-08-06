@@ -20,6 +20,7 @@
 		31AB87BB1B73AC7C008B3BCD /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87BA1B73AC7C008B3BCD /* ArticleModel.m */; };
 		31AB87BE1B73AD1B008B3BCD /* ArticleListResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87BD1B73AD1B008B3BCD /* ArticleListResponseModel.m */; };
 		31AB87C11B73AE45008B3BCD /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87C01B73AE45008B3BCD /* APIManager.m */; };
+		31AB87C61B73DC57008B3BCD /* ArticleRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87C51B73DC57008B3BCD /* ArticleRealm.m */; };
 		CC5A5D1A25878AA0618BCF49 /* libPods-RealmMantleTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8641256C1CDE18AF9DD719DC /* libPods-RealmMantleTutorial.a */; };
 /* End PBXBuildFile section */
 
@@ -51,14 +52,16 @@
 		31AB87A71B739BB9008B3BCD /* RealmMantleTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmMantleTutorialTests.m; sourceTree = "<group>"; };
 		31AB87B21B73A7A9008B3BCD /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
 		31AB87B31B73A7A9008B3BCD /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
-		31AB87B61B73A9E1008B3BCD /* ArticleListRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleListRequestModel.h; path = Mantle/ArticleListRequestModel.h; sourceTree = "<group>"; };
-		31AB87B71B73A9E1008B3BCD /* ArticleListRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleListRequestModel.m; path = Mantle/ArticleListRequestModel.m; sourceTree = "<group>"; };
-		31AB87B91B73AC7C008B3BCD /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleModel.h; path = Mantle/ArticleModel.h; sourceTree = "<group>"; };
-		31AB87BA1B73AC7C008B3BCD /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleModel.m; path = Mantle/ArticleModel.m; sourceTree = "<group>"; };
-		31AB87BC1B73AD1B008B3BCD /* ArticleListResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleListResponseModel.h; path = Mantle/ArticleListResponseModel.h; sourceTree = "<group>"; };
-		31AB87BD1B73AD1B008B3BCD /* ArticleListResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleListResponseModel.m; path = Mantle/ArticleListResponseModel.m; sourceTree = "<group>"; };
+		31AB87B61B73A9E1008B3BCD /* ArticleListRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListRequestModel.h; sourceTree = "<group>"; };
+		31AB87B71B73A9E1008B3BCD /* ArticleListRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListRequestModel.m; sourceTree = "<group>"; };
+		31AB87B91B73AC7C008B3BCD /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleModel.h; sourceTree = "<group>"; };
+		31AB87BA1B73AC7C008B3BCD /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
+		31AB87BC1B73AD1B008B3BCD /* ArticleListResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListResponseModel.h; sourceTree = "<group>"; };
+		31AB87BD1B73AD1B008B3BCD /* ArticleListResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListResponseModel.m; sourceTree = "<group>"; };
 		31AB87BF1B73AE45008B3BCD /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
 		31AB87C01B73AE45008B3BCD /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		31AB87C41B73DC57008B3BCD /* ArticleRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleRealm.h; sourceTree = "<group>"; };
+		31AB87C51B73DC57008B3BCD /* ArticleRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleRealm.m; sourceTree = "<group>"; };
 		43B0C4F768CDE013AAEE1F40 /* Pods-RealmMantleTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		8641256C1CDE18AF9DD719DC /* libPods-RealmMantleTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmMantleTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD280C99BA0AE8F64F88D2ED /* Pods-RealmMantleTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.release.xcconfig"; sourceTree = "<group>"; };
@@ -162,13 +165,8 @@
 		31AB87B51B73A9B9008B3BCD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				31AB87C31B73DC24008B3BCD /* Realm */,
 				31AB87C21B73DBB7008B3BCD /* Mantle */,
-				31AB87B61B73A9E1008B3BCD /* ArticleListRequestModel.h */,
-				31AB87B71B73A9E1008B3BCD /* ArticleListRequestModel.m */,
-				31AB87B91B73AC7C008B3BCD /* ArticleModel.h */,
-				31AB87BA1B73AC7C008B3BCD /* ArticleModel.m */,
-				31AB87BC1B73AD1B008B3BCD /* ArticleListResponseModel.h */,
-				31AB87BD1B73AD1B008B3BCD /* ArticleListResponseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,8 +174,23 @@
 		31AB87C21B73DBB7008B3BCD /* Mantle */ = {
 			isa = PBXGroup;
 			children = (
+				31AB87B61B73A9E1008B3BCD /* ArticleListRequestModel.h */,
+				31AB87B71B73A9E1008B3BCD /* ArticleListRequestModel.m */,
+				31AB87B91B73AC7C008B3BCD /* ArticleModel.h */,
+				31AB87BA1B73AC7C008B3BCD /* ArticleModel.m */,
+				31AB87BC1B73AD1B008B3BCD /* ArticleListResponseModel.h */,
+				31AB87BD1B73AD1B008B3BCD /* ArticleListResponseModel.m */,
 			);
 			path = Mantle;
+			sourceTree = "<group>";
+		};
+		31AB87C31B73DC24008B3BCD /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				31AB87C41B73DC57008B3BCD /* ArticleRealm.h */,
+				31AB87C51B73DC57008B3BCD /* ArticleRealm.m */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 		BBC60D1F3CA9F47751518DEA /* Pods */ = {
@@ -338,6 +351,7 @@
 				31AB87B81B73A9E1008B3BCD /* ArticleListRequestModel.m in Sources */,
 				31AB87BB1B73AC7C008B3BCD /* ArticleModel.m in Sources */,
 				31AB87911B739BB8008B3BCD /* MasterViewController.m in Sources */,
+				31AB87C61B73DC57008B3BCD /* ArticleRealm.m in Sources */,
 				31AB87BE1B73AD1B008B3BCD /* ArticleListResponseModel.m in Sources */,
 				31AB878B1B739BB8008B3BCD /* main.m in Sources */,
 				31AB87941B739BB8008B3BCD /* DetailViewController.m in Sources */,
