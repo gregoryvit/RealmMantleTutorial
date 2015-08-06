@@ -18,6 +18,7 @@
 		31AB87B41B73A7A9008B3BCD /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87B31B73A7A9008B3BCD /* SessionManager.m */; };
 		31AB87B81B73A9E1008B3BCD /* ArticleListRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87B71B73A9E1008B3BCD /* ArticleListRequestModel.m */; };
 		31AB87BB1B73AC7C008B3BCD /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87BA1B73AC7C008B3BCD /* ArticleModel.m */; };
+		31AB87BE1B73AD1B008B3BCD /* ArticleListResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87BD1B73AD1B008B3BCD /* ArticleListResponseModel.m */; };
 		CC5A5D1A25878AA0618BCF49 /* libPods-RealmMantleTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8641256C1CDE18AF9DD719DC /* libPods-RealmMantleTutorial.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		31AB87B71B73A9E1008B3BCD /* ArticleListRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListRequestModel.m; sourceTree = "<group>"; };
 		31AB87B91B73AC7C008B3BCD /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleModel.h; sourceTree = "<group>"; };
 		31AB87BA1B73AC7C008B3BCD /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
+		31AB87BC1B73AD1B008B3BCD /* ArticleListResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListResponseModel.h; sourceTree = "<group>"; };
+		31AB87BD1B73AD1B008B3BCD /* ArticleListResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListResponseModel.m; sourceTree = "<group>"; };
 		43B0C4F768CDE013AAEE1F40 /* Pods-RealmMantleTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		8641256C1CDE18AF9DD719DC /* libPods-RealmMantleTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmMantleTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD280C99BA0AE8F64F88D2ED /* Pods-RealmMantleTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				31AB87B71B73A9E1008B3BCD /* ArticleListRequestModel.m */,
 				31AB87B91B73AC7C008B3BCD /* ArticleModel.h */,
 				31AB87BA1B73AC7C008B3BCD /* ArticleModel.m */,
+				31AB87BC1B73AD1B008B3BCD /* ArticleListResponseModel.h */,
+				31AB87BD1B73AD1B008B3BCD /* ArticleListResponseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 				31AB87B81B73A9E1008B3BCD /* ArticleListRequestModel.m in Sources */,
 				31AB87BB1B73AC7C008B3BCD /* ArticleModel.m in Sources */,
 				31AB87911B739BB8008B3BCD /* MasterViewController.m in Sources */,
+				31AB87BE1B73AD1B008B3BCD /* ArticleListResponseModel.m in Sources */,
 				31AB878B1B739BB8008B3BCD /* main.m in Sources */,
 				31AB87941B739BB8008B3BCD /* DetailViewController.m in Sources */,
 			);
