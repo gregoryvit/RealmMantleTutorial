@@ -15,6 +15,7 @@
 		31AB87991B739BB9008B3BCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AB87981B739BB9008B3BCD /* Images.xcassets */; };
 		31AB879C1B739BB9008B3BCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31AB879A1B739BB9008B3BCD /* LaunchScreen.xib */; };
 		31AB87A81B739BB9008B3BCD /* RealmMantleTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87A71B739BB9008B3BCD /* RealmMantleTutorialTests.m */; };
+		31AB87B41B73A7A9008B3BCD /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87B31B73A7A9008B3BCD /* SessionManager.m */; };
 		CC5A5D1A25878AA0618BCF49 /* libPods-RealmMantleTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8641256C1CDE18AF9DD719DC /* libPods-RealmMantleTutorial.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		31AB87A11B739BB9008B3BCD /* RealmMantleTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmMantleTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AB87A61B739BB9008B3BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31AB87A71B739BB9008B3BCD /* RealmMantleTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmMantleTutorialTests.m; sourceTree = "<group>"; };
+		31AB87B21B73A7A9008B3BCD /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		31AB87B31B73A7A9008B3BCD /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
 		43B0C4F768CDE013AAEE1F40 /* Pods-RealmMantleTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		8641256C1CDE18AF9DD719DC /* libPods-RealmMantleTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmMantleTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD280C99BA0AE8F64F88D2ED /* Pods-RealmMantleTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 		31AB87871B739BB8008B3BCD /* RealmMantleTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				31AB87B11B73A77B008B3BCD /* Network */,
 				31AB878C1B739BB8008B3BCD /* AppDelegate.h */,
 				31AB878D1B739BB8008B3BCD /* AppDelegate.m */,
 				31AB878F1B739BB8008B3BCD /* MasterViewController.h */,
@@ -129,6 +133,15 @@
 				31AB87A61B739BB9008B3BCD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31AB87B11B73A77B008B3BCD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				31AB87B21B73A7A9008B3BCD /* SessionManager.h */,
+				31AB87B31B73A7A9008B3BCD /* SessionManager.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		BBC60D1F3CA9F47751518DEA /* Pods */ = {
@@ -283,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31AB87B41B73A7A9008B3BCD /* SessionManager.m in Sources */,
 				31AB878E1B739BB8008B3BCD /* AppDelegate.m in Sources */,
 				31AB87911B739BB8008B3BCD /* MasterViewController.m in Sources */,
 				31AB878B1B739BB8008B3BCD /* main.m in Sources */,
