@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31AB878B1B739BB8008B3BCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB878A1B739BB8008B3BCD /* main.m */; };
+		31AB878E1B739BB8008B3BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB878D1B739BB8008B3BCD /* AppDelegate.m */; };
+		31AB87911B739BB8008B3BCD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87901B739BB8008B3BCD /* MasterViewController.m */; };
+		31AB87941B739BB8008B3BCD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87931B739BB8008B3BCD /* DetailViewController.m */; };
+		31AB87971B739BB9008B3BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AB87951B739BB9008B3BCD /* Main.storyboard */; };
+		31AB87991B739BB9008B3BCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AB87981B739BB9008B3BCD /* Images.xcassets */; };
+		31AB879C1B739BB9008B3BCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31AB879A1B739BB9008B3BCD /* LaunchScreen.xib */; };
+		31AB87A81B739BB9008B3BCD /* RealmMantleTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87A71B739BB9008B3BCD /* RealmMantleTutorialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31AB87A21B739BB9008B3BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AB877D1B739BB8008B3BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AB87841B739BB8008B3BCD;
+			remoteInfo = RealmMantleTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31AB87851B739BB8008B3BCD /* RealmMantleTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmMantleTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AB87891B739BB8008B3BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AB878A1B739BB8008B3BCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31AB878C1B739BB8008B3BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31AB878D1B739BB8008B3BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31AB878F1B739BB8008B3BCD /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		31AB87901B739BB8008B3BCD /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		31AB87921B739BB8008B3BCD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		31AB87931B739BB8008B3BCD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		31AB87961B739BB9008B3BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31AB87981B739BB9008B3BCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31AB879B1B739BB9008B3BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		31AB87A11B739BB9008B3BCD /* RealmMantleTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmMantleTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AB87A61B739BB9008B3BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AB87A71B739BB9008B3BCD /* RealmMantleTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmMantleTutorialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31AB87821B739BB8008B3BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AB879E1B739BB9008B3BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31AB877C1B739BB8008B3BCD = {
+			isa = PBXGroup;
+			children = (
+				31AB87871B739BB8008B3BCD /* RealmMantleTutorial */,
+				31AB87A41B739BB9008B3BCD /* RealmMantleTutorialTests */,
+				31AB87861B739BB8008B3BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31AB87861B739BB8008B3BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31AB87851B739BB8008B3BCD /* RealmMantleTutorial.app */,
+				31AB87A11B739BB9008B3BCD /* RealmMantleTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31AB87871B739BB8008B3BCD /* RealmMantleTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				31AB878C1B739BB8008B3BCD /* AppDelegate.h */,
+				31AB878D1B739BB8008B3BCD /* AppDelegate.m */,
+				31AB878F1B739BB8008B3BCD /* MasterViewController.h */,
+				31AB87901B739BB8008B3BCD /* MasterViewController.m */,
+				31AB87921B739BB8008B3BCD /* DetailViewController.h */,
+				31AB87931B739BB8008B3BCD /* DetailViewController.m */,
+				31AB87951B739BB9008B3BCD /* Main.storyboard */,
+				31AB87981B739BB9008B3BCD /* Images.xcassets */,
+				31AB879A1B739BB9008B3BCD /* LaunchScreen.xib */,
+				31AB87881B739BB8008B3BCD /* Supporting Files */,
+			);
+			path = RealmMantleTutorial;
+			sourceTree = "<group>";
+		};
+		31AB87881B739BB8008B3BCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31AB87891B739BB8008B3BCD /* Info.plist */,
+				31AB878A1B739BB8008B3BCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31AB87A41B739BB9008B3BCD /* RealmMantleTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				31AB87A71B739BB9008B3BCD /* RealmMantleTutorialTests.m */,
+				31AB87A51B739BB9008B3BCD /* Supporting Files */,
+			);
+			path = RealmMantleTutorialTests;
+			sourceTree = "<group>";
+		};
+		31AB87A51B739BB9008B3BCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31AB87A61B739BB9008B3BCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31AB87841B739BB8008B3BCD /* RealmMantleTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AB87AB1B739BB9008B3BCD /* Build configuration list for PBXNativeTarget "RealmMantleTutorial" */;
+			buildPhases = (
+				31AB87811B739BB8008B3BCD /* Sources */,
+				31AB87821B739BB8008B3BCD /* Frameworks */,
+				31AB87831B739BB8008B3BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealmMantleTutorial;
+			productName = RealmMantleTutorial;
+			productReference = 31AB87851B739BB8008B3BCD /* RealmMantleTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31AB87A01B739BB9008B3BCD /* RealmMantleTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AB87AE1B739BB9008B3BCD /* Build configuration list for PBXNativeTarget "RealmMantleTutorialTests" */;
+			buildPhases = (
+				31AB879D1B739BB9008B3BCD /* Sources */,
+				31AB879E1B739BB9008B3BCD /* Frameworks */,
+				31AB879F1B739BB9008B3BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AB87A31B739BB9008B3BCD /* PBXTargetDependency */,
+			);
+			name = RealmMantleTutorialTests;
+			productName = RealmMantleTutorialTests;
+			productReference = 31AB87A11B739BB9008B3BCD /* RealmMantleTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31AB877D1B739BB8008B3BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Gregory Berngardt";
+				TargetAttributes = {
+					31AB87841B739BB8008B3BCD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					31AB87A01B739BB9008B3BCD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 31AB87841B739BB8008B3BCD;
+					};
+				};
+			};
+			buildConfigurationList = 31AB87801B739BB8008B3BCD /* Build configuration list for PBXProject "RealmMantleTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31AB877C1B739BB8008B3BCD;
+			productRefGroup = 31AB87861B739BB8008B3BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31AB87841B739BB8008B3BCD /* RealmMantleTutorial */,
+				31AB87A01B739BB9008B3BCD /* RealmMantleTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31AB87831B739BB8008B3BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AB87971B739BB9008B3BCD /* Main.storyboard in Resources */,
+				31AB879C1B739BB9008B3BCD /* LaunchScreen.xib in Resources */,
+				31AB87991B739BB9008B3BCD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AB879F1B739BB9008B3BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31AB87811B739BB8008B3BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AB878E1B739BB8008B3BCD /* AppDelegate.m in Sources */,
+				31AB87911B739BB8008B3BCD /* MasterViewController.m in Sources */,
+				31AB878B1B739BB8008B3BCD /* main.m in Sources */,
+				31AB87941B739BB8008B3BCD /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AB879D1B739BB9008B3BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AB87A81B739BB9008B3BCD /* RealmMantleTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31AB87A31B739BB9008B3BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AB87841B739BB8008B3BCD /* RealmMantleTutorial */;
+			targetProxy = 31AB87A21B739BB9008B3BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31AB87951B739BB9008B3BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AB87961B739BB9008B3BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31AB879A1B739BB9008B3BCD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AB879B1B739BB9008B3BCD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31AB87A91B739BB9008B3BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31AB87AA1B739BB9008B3BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31AB87AC1B739BB9008B3BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealmMantleTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31AB87AD1B739BB9008B3BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealmMantleTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31AB87AF1B739BB9008B3BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RealmMantleTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmMantleTutorial.app/RealmMantleTutorial";
+			};
+			name = Debug;
+		};
+		31AB87B01B739BB9008B3BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RealmMantleTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmMantleTutorial.app/RealmMantleTutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31AB87801B739BB8008B3BCD /* Build configuration list for PBXProject "RealmMantleTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AB87A91B739BB9008B3BCD /* Debug */,
+				31AB87AA1B739BB9008B3BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AB87AB1B739BB9008B3BCD /* Build configuration list for PBXNativeTarget "RealmMantleTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AB87AC1B739BB9008B3BCD /* Debug */,
+				31AB87AD1B739BB9008B3BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31AB87AE1B739BB9008B3BCD /* Build configuration list for PBXNativeTarget "RealmMantleTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AB87AF1B739BB9008B3BCD /* Debug */,
+				31AB87B01B739BB9008B3BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31AB877D1B739BB8008B3BCD /* Project object */;
+}
