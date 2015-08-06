@@ -15,6 +15,7 @@
 		31AB87991B739BB9008B3BCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AB87981B739BB9008B3BCD /* Images.xcassets */; };
 		31AB879C1B739BB9008B3BCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31AB879A1B739BB9008B3BCD /* LaunchScreen.xib */; };
 		31AB87A81B739BB9008B3BCD /* RealmMantleTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AB87A71B739BB9008B3BCD /* RealmMantleTutorialTests.m */; };
+		CC5A5D1A25878AA0618BCF49 /* libPods-RealmMantleTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8641256C1CDE18AF9DD719DC /* libPods-RealmMantleTutorial.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,9 @@
 		31AB87A11B739BB9008B3BCD /* RealmMantleTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmMantleTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AB87A61B739BB9008B3BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31AB87A71B739BB9008B3BCD /* RealmMantleTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmMantleTutorialTests.m; sourceTree = "<group>"; };
+		43B0C4F768CDE013AAEE1F40 /* Pods-RealmMantleTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		8641256C1CDE18AF9DD719DC /* libPods-RealmMantleTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmMantleTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD280C99BA0AE8F64F88D2ED /* Pods-RealmMantleTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMantleTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5A5D1A25878AA0618BCF49 /* libPods-RealmMantleTutorial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +74,8 @@
 				31AB87871B739BB8008B3BCD /* RealmMantleTutorial */,
 				31AB87A41B739BB9008B3BCD /* RealmMantleTutorialTests */,
 				31AB87861B739BB8008B3BCD /* Products */,
+				BBC60D1F3CA9F47751518DEA /* Pods */,
+				DF87572F3975C542B3DA3F89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +131,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BBC60D1F3CA9F47751518DEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43B0C4F768CDE013AAEE1F40 /* Pods-RealmMantleTutorial.debug.xcconfig */,
+				CD280C99BA0AE8F64F88D2ED /* Pods-RealmMantleTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF87572F3975C542B3DA3F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8641256C1CDE18AF9DD719DC /* libPods-RealmMantleTutorial.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31AB87AB1B739BB9008B3BCD /* Build configuration list for PBXNativeTarget "RealmMantleTutorial" */;
 			buildPhases = (
+				E99F8B9769A2FF5CEB3172EE /* Check Pods Manifest.lock */,
 				31AB87811B739BB8008B3BCD /* Sources */,
 				31AB87821B739BB8008B3BCD /* Frameworks */,
 				31AB87831B739BB8008B3BCD /* Resources */,
+				D88DF3F00E59A21F9150C3CB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +244,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D88DF3F00E59A21F9150C3CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmMantleTutorial/Pods-RealmMantleTutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E99F8B9769A2FF5CEB3172EE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		31AB87811B739BB8008B3BCD /* Sources */ = {
@@ -353,6 +412,7 @@
 		};
 		31AB87AC1B739BB9008B3BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B0C4F768CDE013AAEE1F40 /* Pods-RealmMantleTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RealmMantleTutorial/Info.plist;
@@ -363,6 +423,7 @@
 		};
 		31AB87AD1B739BB9008B3BCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD280C99BA0AE8F64F88D2ED /* Pods-RealmMantleTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RealmMantleTutorial/Info.plist;
@@ -424,6 +485,7 @@
 				31AB87AD1B739BB9008B3BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31AB87AE1B739BB9008B3BCD /* Build configuration list for PBXNativeTarget "RealmMantleTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +494,7 @@
 				31AB87B01B739BB9008B3BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
